@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>News Article List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+<body ng-app='ArticleListApp'>
+  <div class="container" ng-controller="ArticleListController as list">
+    <h1>New York Times Article Search</h1>
+
+    <div class="form-group narrow-button">
+      <button class="btn btn-primary" ng-click="list.getData();">Get Data</button>
+    </div>
+
+  </div>
+
+</body>
+</html>
